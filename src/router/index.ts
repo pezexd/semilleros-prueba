@@ -61,7 +61,12 @@ const routes = [
 				path: "example-form",
 				name: "example.create",
 				component: () => import('@/pages/monitors/exampleForm.vue')
-			}
+			},
+			{
+				path: "example-list",
+				name: "example.index",
+				component: () => import('@/pages/monitors/exampleCrud.vue')
+			},
 		],
 	},
 	// {

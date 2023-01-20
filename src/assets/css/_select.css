@@ -15,7 +15,7 @@ fieldset[disabled] .multiselect {
     display: block;
     position: relative;
     width: 100%;
-    min-height: 40px;
+    min-height: 37px;
     text-align: left;
     color: #35495e;
 }
@@ -62,6 +62,7 @@ input[type='text']:focus {
 
 .multiselect__input,
 .multiselect__single {
+    @apply text-sm;
     position: relative;
     display: inline-block;
     min-height: 20px;
@@ -73,7 +74,7 @@ input[type='text']:focus {
     width: 100%;
     transition: border .1s ease;
     box-sizing: border-box;
-    margin-bottom: 8px;
+    margin-bottom: 7px;
     vertical-align: top;
 }
 
@@ -115,7 +116,7 @@ input[type='text']:focus {
 }
 
 .multiselect__tags {
-    min-height: 38px;
+    min-height: 36px;
     display: block;
     padding: 5px 40px 0 5px;
     font-size: 14px;
@@ -187,9 +188,9 @@ input[type='text']:focus {
 .multiselect__select {
     position: absolute;
     width: 40px;
-    height: 38px;
-    right: 1px;
-    top: 1px;
+    height: 36px;
+    right: 0px;
+    top: 0px;
     padding: 4px 8px;
     text-align: center;
     transition: transform .2s ease;

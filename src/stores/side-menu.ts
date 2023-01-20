@@ -31,6 +31,11 @@ export const useSideMenuStore = defineStore("sideMenu", {
         pageName: "example.create",
         title: "Formulario de Ejemplo",
       },
+      {
+        icon: "Activity",
+        pageName: "example.index",
+        title: "Listado de Ejemplo",
+      },
     ],
   }),
 });

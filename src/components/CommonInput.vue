@@ -61,7 +61,7 @@ export default {
     <div class="input-form">
         <!-- Label -->
         <template v-if="label">
-            <FormLabel for="name" class="flex flex-col w-full sm:flex-row">
+            <FormLabel :for="name" class="flex flex-col w-full sm:flex-row">
                 {{ label }}
                 <template v-if="tooltip">
                     <span class="mt-1 text-xs sm:ml-auto sm:mt-0 text-slate-500">
